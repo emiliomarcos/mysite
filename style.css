@@ -1,8 +1,26 @@
 body {
   background-color: #110B1F;
   text-align: center;
+  color: white;
 }
 
 .text {
   color: white;
+}
+
+.my-photo {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.project-photo {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
